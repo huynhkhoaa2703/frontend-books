@@ -1,0 +1,90 @@
+.type-product {
+  padding: 0 120px;
+}
+
+.type-product_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 44px;
+  cursor: pointer;
+}
+
+#container {
+  background-color: black;
+}
+/* 
+.slick-next {
+  display: none !important;
+} */
+
+#container {
+  background-color: #e7e7e7;
+  padding: 0 50px;
+}
+
+.card-wrapper {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn-frame {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.btn-more {
+  border: 1px solid rgb(49, 49, 59);
+  color: black;
+  font-weight: 600;
+  width: 240px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: white;
+  align-items: center;
+}
+
+.btn-more:hover {
+  color: white;
+  background-color: rgb(50, 50, 51);
+}
+
+.h1-tittle {
+  text-align: center;
+}
+
+.btn-margin {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  #root {
+    overflow-x: hidden;
+  }
+  .type-product {
+    padding: 0;
+  }
+
+  #container {
+    padding: 0;
+  }
+
+  .h1-tittle {
+    font-size: 21px;
+  }
+
+  .card-item {
+    width: 177px !important;
+    height: 350px;
+  }
+
+  .ant-card-cover {
+    height: auto !important;
+  }
+}
